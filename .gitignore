@@ -1,0 +1,102 @@
+# --------------------------------------------------
+# .NET BUILD OUTPUT
+# --------------------------------------------------
+bin/
+obj/
+out/
+[Bb]uild/
+[Ll]og/
+
+# --------------------------------------------------
+# VISUAL STUDIO CODE SETTINGS (Safe to ignore)
+# --------------------------------------------------
+.vscode/
+*.code-workspace
+
+# --------------------------------------------------
+# USER-SPECIFIC FILES
+# --------------------------------------------------
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.userprefs
+
+# --------------------------------------------------
+# OS-SPECIFIC FILES
+# --------------------------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# --------------------------------------------------
+# TEMPORARY / BACKUP FILES
+# --------------------------------------------------
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*.swn
+*.swm
+*.swl
+
+# --------------------------------------------------
+# NUGET PACKAGES
+# --------------------------------------------------
+*.nupkg
+# Do not ignore if you want to commit your packages
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# NuGet cache
+~/.nuget/
+
+# --------------------------------------------------
+# DOTNET TOOLS / LOCAL SETTINGS
+# --------------------------------------------------
+.dotnet/
+tools/
+
+# --------------------------------------------------
+# RIDER / RESHARPER (in case used later)
+# --------------------------------------------------
+.idea/
+*.DotSettings.user
+
+# --------------------------------------------------
+# LOGS + COVERAGE
+# --------------------------------------------------
+*.log
+logs/
+TestResults/
+coverage/
+coverage.xml
+.coverage
+.coveragejson
+
+# --------------------------------------------------
+# ENV / SECRETS
+# --------------------------------------------------
+*.env
+*.env.*
+secrets.json
+
+# --------------------------------------------------
+# OTHER COMMON DOTNET FILES
+# --------------------------------------------------
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.db
+*.sqlite
